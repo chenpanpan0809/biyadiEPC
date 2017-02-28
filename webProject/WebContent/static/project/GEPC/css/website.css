@@ -1,0 +1,155 @@
+.header {
+    background: url('../img/top-bg.png') repeat-x scroll left bottom transparent !important;
+}
+
+.header .navbar-inner {
+    width: 100%;
+    margin: 0px;
+    border: 0px none;
+    padding: 0px;
+    box-shadow: none;
+    height: 80px;
+}
+
+.header .brand {
+    padding: 20px 0px;
+    width: 620px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.header .nav {
+    display: block;
+    margin-top: 20px;
+}
+
+.ui-layout-west {
+    background-color: #3d3d3d;
+}
+
+.page-sidebar {
+    background-color: #3d3d3d;
+}
+ul.page-sidebar-menu > li > a {
+    border-top: 0px solid #3A82AF !important;
+    color: #FFF !important;
+}
+ul.page-sidebar-menu > li.open > a,
+ul.page-sidebar-menu > li > a:hover,
+ul.page-sidebar-menu > li:hover > a {
+    background: #303030;
+}
+ul.page-sidebar-menu > li.active > a {
+    background: #303030 !important;
+    border-top-color: transparent !important;
+    color: #ffffff;
+}
+
+
+.main-block{
+    display: block;
+    width: 100%;
+    /*min-height: 253px;*/
+    border: 2px solid #dbdbdb;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.fullheight{
+    height: 520px;
+}
+
+.search-default form {
+    margin-bottom:0;
+    padding:12px 14px;
+}
+.search-forms{
+    border-bottom: 1px solid #d3d3d3;
+}
+.search-default .chat-form {
+    margin:0;
+    padding:0;
+    background:none;
+    overflow:hidden;
+    position:relative;
+}
+
+.search-default .chat-form button {
+    top:0;
+    right:0;
+    position:absolute;
+    width: 90px;
+    height: 38px;
+}
+
+.search-default .chat-form .input-cont {
+    margin-right:108px;
+}
+.search-default .chat-form .input-cont input {
+    height: 30px;
+}
+.search-default .chat-form .input-cont input:focus{
+    border: 1px solid #35aa47 !important;
+}
+
+.search-result {
+    background:#fafafa;
+}
+
+.form-search .chat-form .btn.green{
+    font-weight: 800;
+    font-size: 20px;
+}
+.feeds .col1 .cont {
+    float: left;
+    margin-right: 0px;
+    overflow: hidden;
+}
+.carselectlist{
+    list-style: none;
+    margin-top: 20px;
+}
+.carselectlist>li{
+    margin-bottom: 20px;
+}
+.carselectlist > li > img {
+    float: left;
+    width: 100px;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+
+.carlist{
+    list-style: none;
+}
+.carlist li{
+    float: left;
+    width: 200px;
+    /*height: 200px;*/
+    margin-right: 10px;
+}
+
+.carlist li h5{
+    text-align: center;
+}
+.list-title{
+    border-bottom: 1px solid #a4a4a4;
+    padding: 0 10px 0px 0px;
+}
+.list-title span{
+    border-bottom: 1px solid #f0a623;
+    padding: 10px 10px 5px 10px;
+}
+.list-title small{
+    margin-top: 20px;
+}
+.news-title{
+    margin: 0px;
+}
+.news-title li{
+    color: #424242;
+    font-size: 14px;
+    padding: 10px 10px 7px 10px;
+    list-style:inside;
+    border-bottom: 1px dotted #a4a4a4;
+}
